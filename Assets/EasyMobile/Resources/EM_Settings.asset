@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb4452e2410c04b34915077cbe0f3a4d, type: 3}
+  m_Name: EM_Settings
+  m_EditorClassIdentifier: 
+  _advertisingSettings:
+    _iosAdMobConfig:
+      bannerAdId: 
+      interstitialAdId: 
+      rewardedAdId: 
+    _androidAdMobConfig:
+      bannerAdId: 
+      interstitialAdId: 
+      rewardedAdId: 
+    _heyzapPublisherId: 
+    _heyzapShowTestSuite: 0
+    _autoLoadDefaultAds: 1
+    _adCheckingInterval: 10
+    _adLoadingInterval: 20
+    _iosDefaultAdNetworks:
+      bannerAdNetwork: 0
+      interstitialAdNetwork: 0
+      rewardedAdNetwork: 0
+    _androidDefaultAdNetwork:
+      bannerAdNetwork: 1
+      interstitialAdNetwork: 1
+      rewardedAdNetwork: 4
+  _gameServiceSettings:
+    _gpgsDebugLog: 0
+    _autoInit: 1
+    _autoInitDelay: 0
+    _androidMaxLoginRequests: 3
+    _leaderboards:
+    - _name: Score
+      _iosId: 
+      _androidId: CgkI3tzAhK8eEAIQAA
+    _achievements:
+    - _name: Score_10
+      _iosId: 
+      _androidId: CgkI3tzAhK8eEAIQEg
+    - _name: Score_20
+      _iosId: 
+      _androidId: CgkI3tzAhK8eEAIQAQ
+    - _name: Score_30
+      _iosId: 
+      _androidId: CgkI3tzAhK8eEAIQEw
+    - _name: Score_40
+      _iosId: 
+      _androidId: CgkI3tzAhK8eEAIQAg
+    - _name: Score_50
+      _iosId: 
+      _androidId: CgkI3tzAhK8eEAIQFA
+    - _name: Score_60
+      _iosId: 
+      _androidId: CgkI3tzAhK8eEAIQAw
+    - _name: Score_70
+      _iosId: 
+      _androidId: CgkI3tzAhK8eEAIQFQ
+    - _name: Score_80
+      _iosId: 
+      _androidId: CgkI3tzAhK8eEAIQBA
+    - _name: Score_90
+      _iosId: 
+      _androidId: CgkI3tzAhK8eEAIQFg
+    - _name: Score_100
+      _iosId: 
+      _androidId: CgkI3tzAhK8eEAIQBQ
+    _androidXmlResources: 
+  _inAppPurchaseSettings:
+    _targetAndroidStore: 0
+    _validateAppleReceipt: 0
+    _validateGooglePlayReceipt: 0
+    _products:
+    - _name: Remove_Ads
+      _type: 1
+      _id: 
+      _price: 
+      _description: 
+      _storeSpecificIds: []
+      _isEditingAdvanced: 0
+    - _name: Coins_500
+      _type: 0
+      _id: 
+      _price: 
+      _description: 
+      _storeSpecificIds: []
+      _isEditingAdvanced: 0
+    - _name: Coins_1000
+      _type: 0
+      _id: 
+      _price: 
+      _description: 
+      _storeSpecificIds: []
+      _isEditingAdvanced: 0
+    - _name: Coins_2000
+      _type: 0
+      _id: 
+      _price: 
+      _description: 
+      _storeSpecificIds: []
+      _isEditingAdvanced: 0
+    - _name: Coins_4000
+      _type: 0
+      _id: 
+      _price: 
+      _description: 
+      _storeSpecificIds: []
+      _isEditingAdvanced: 0
+    - _name: Coins_10000
+      _type: 0
+      _id: 
+      _price: 
+      _description: 
+      _storeSpecificIds: []
+      _isEditingAdvanced: 0
+  _notificationSettings:
+    _autoInit: 1
+    _autoInitDelay: 0
+    _oneSignalAppId: 
+    _googleProjectNumber: 
+  _isAdModuleEnable: 0
+  _isIAPModuleEnable: 0
+  _isGameServiceModuleEnable: 1
+  _isNotificationModuleEnable: 0
+  _activeModuleIndex: 2
