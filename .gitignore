@@ -1,0 +1,56 @@
+# =============== #
+# Unity generated #
+# =============== #
+[Tt]emp/
+[Bb]uild
+[Ll]ibrary/
+sysinfo.txt
+*.stackdump
+ 
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+.vs/
+/*.userprefs
+/*.csproj
+/*.pidb
+/*.suo
+/*.sln*
+/*.user
+/*.unityproj
+/*.booproj
+*.sln
+*.tmp
+*.user
+*.pidb.meta
+sysinfo.txt
+ 
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+[Tt]humbs.db
+
+# ================ #
+# SQLite generated #
+# ================ #
+*.db-journal
+*.db-journal.meta
+
+/[Ll]ibrary/
+/[Tt]emp/
+/[Bb]uild/
+Assets/StreamingAssets/build_info.txt
+Assets/StreamingAssets/build_info.txt.meta
+Assets/FMODStudioCache.asset
+Assets/StreamingAssets/*.bank
+fmod.log
+fmod_editor.log
+Assets/Resources/FMODStudioSettings.asset
+Assets/Resources/FMODStudioSettings.asset.meta
+Assets/Resources/FMODStudioSettings.meta
