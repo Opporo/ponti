@@ -9,7 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 411074}
   - 114: {fileID: 11402936}
-  - 114: {fileID: 11479286}
+  - 114: {fileID: 11417868}
   m_Layer: 0
   m_Name: EasyMobile
   m_TagString: Untagged
@@ -41,7 +41,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07ddfcdf1e4b94c54b1db6394f7ee5f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &11479286
+--- !u!114 &11417868
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -49,7 +49,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 157206}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8be00b601328b4ffd92cfc53287a94a6, type: 3}
+  m_Script: {fileID: 11500000, guid: ef30089487ff14be08cf4f2a63def99f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &100100000

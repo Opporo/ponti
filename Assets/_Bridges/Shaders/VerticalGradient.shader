@@ -1,4 +1,6 @@
-﻿Shader "SgLib/VerticalGradient" {
+﻿// Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
+
+Shader "SgLib/VerticalGradient" {
 	Properties {
 		_MainTex ("Texture", 2D) = "white" {}
 		_ColorUp ("Color Up", Color) = (1,1,1,1)
@@ -45,7 +47,7 @@
 
 			// Albedo also depends on normal
 			half nd = saturate(dot(IN.worldNormal, UP));
-			float3 localPos = mul(_World2Object, float4(IN.worldPos, 1)).xyz;	// _World2Object must be 1s parameter of mul
+			float3 localPos = mul(unity_WorldToObject, float4(IN.worldPos, 1)).xyz;	// _World2Object must be 1s parameter of mul
 			half r = min(_GradientBias, 1 - _GradientBias);
 			fixed4 gradient = lerp(_ColorLow, _ColorHigh, smoothstep(_GradientBias - r, _GradientBias + r, smoothstep(_yLocalPosLow, _yLocalPosHigh, localPos.y)));
 			c *= nd * _ColorUp + (1 - nd) * gradient;

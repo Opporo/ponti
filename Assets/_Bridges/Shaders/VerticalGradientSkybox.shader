@@ -1,4 +1,6 @@
-﻿Shader "SgLib/Skybox/VerticalGradient" {
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "SgLib/Skybox/VerticalGradient" {
 	Properties {
 		_ColorHigh ("Color Top", Color) = (1,1,1,1)
 		_ColorLow ("Color Bottom", Color) = (1,1,1,1)
@@ -24,7 +26,7 @@
 			fixed _GradientBias;
 
 			float4 vert(appdata_base v) : POSITION {
-                return mul (UNITY_MATRIX_MVP, v.vertex);
+                return UnityObjectToClipPos (v.vertex);
             }
 
             fixed4 frag(float4 sp:VPOS) : SV_Target {

@@ -54,6 +54,15 @@ public class UIManager : MonoBehaviour
     public GameObject shareUI;
     public Image sharedImage;
 
+    //my own
+    [Header("My Own")]
+    public GameObject preGameUi;
+    public GameObject gameplayUi;
+    public GameObject preGameOverUi;
+    public GameObject gameOverUi;
+    public Text gameplayScoreText;
+    public Text gameOverScoreText;
+
     Animator scoreAnimator;
     Animator dailyRewardAnimator;
     bool isWatchAdsForCoinBtnActive;
@@ -139,17 +148,17 @@ public class UIManager : MonoBehaviour
         mainCanvas.SetActive(true);
         settingsCanvas.SetActive(false);
 
-        header.SetActive(false);
-        title.gameObject.SetActive(false);
-        score.gameObject.SetActive(false);
-        tapToStart.SetActive(false);
-        tapToContinue.SetActive(false);
-        characterSelectBtn.SetActive(false);
-        menuButtons.SetActive(false);
-        dailyRewardBtn.SetActive(false);
-        continueLostGame.SetActive(false);
-        continueByCoinsBtn.SetActive(false);
-        settingsCanvas.SetActive(false);
+        //header.SetActive(false);
+        //title.gameObject.SetActive(false);
+        //score.gameObject.SetActive(false);
+        //tapToStart.SetActive(false);
+        //tapToContinue.SetActive(false);
+        //characterSelectBtn.SetActive(false);
+        //menuButtons.SetActive(false);
+        //dailyRewardBtn.SetActive(false);
+        //continueLostGame.SetActive(false);
+        //continueByCoinsBtn.SetActive(false);
+        //settingsCanvas.SetActive(false);
 
         // Enable or disable premium stuff
         bool enablePremium = gameManager.enablePremiumFeatures;
@@ -164,40 +173,59 @@ public class UIManager : MonoBehaviour
 
         // These premium feature buttons are hidden by default
         // and shown when certain criteria are met (e.g. rewarded ad is loaded)
-        continueByAdsBtn.SetActive(false);
-        watchForCoinsBtn.gameObject.SetActive(false);
+        //continueByAdsBtn.SetActive(false);
+        //watchForCoinsBtn.gameObject.SetActive(false);
+
+        //my own
+        gameplayUi.SetActive(false);
+        gameOverUi.SetActive(false);
+        preGameOverUi.SetActive(false);
+        preGameUi.SetActive(true);
     }
 
     public void ShowStartUI()
     {
-        mainCanvas.SetActive(true);
-        settingsCanvas.SetActive(false);
+        //mainCanvas.SetActive(true);
+        //settingsCanvas.SetActive(false);
 
-        header.SetActive(true);
-        title.gameObject.SetActive(true);
-        tapToStart.SetActive(true);
-        characterSelectBtn.SetActive(true);    
+        //header.SetActive(true);
+        //title.gameObject.SetActive(true);
+        //tapToStart.SetActive(true);
+        //characterSelectBtn.SetActive(true);
+
+        //my own
+        preGameUi.SetActive(true);
     }
 
     public void ShowGameUI()
     {
-        header.SetActive(true);
-        title.gameObject.SetActive(false);
-        score.gameObject.SetActive(true);
-        tapToStart.SetActive(false);
-        tapToContinue.SetActive(false);
-        characterSelectBtn.SetActive(false);
+        //header.SetActive(true);
+        //title.gameObject.SetActive(false);
+        //score.gameObject.SetActive(true);
+        //tapToStart.SetActive(false);
+        //tapToContinue.SetActive(false);
+        //characterSelectBtn.SetActive(false);
+
+        //my own
+        preGameUi.SetActive(false);
+        gameplayUi.SetActive(true);
+
     }
 
     public void ShowContinueLostGameUI(bool canUseCoins, bool canWatchAd)
     {
-        continueByCoinsBtn.SetActive(canUseCoins);
-        continueByAdsBtn.SetActive(canWatchAd);
+        //continueByCoinsBtn.SetActive(canUseCoins);
+        //continueByAdsBtn.SetActive(canWatchAd);
 
-        continueLostGame.SetActive(true);
+        //continueLostGame.SetActive(true);
+
+        //my own
+        gameplayUi.SetActive(false);
+        preGameOverUi.SetActive(true);
+        continueByAdsBtn.SetActive(canWatchAd);
     }
 
-    public void ShowResumeUI()
+    public void ShowResumeUI() //TODO
     {
         tapToContinue.SetActive(true);
         score.gameObject.SetActive(true);
@@ -205,15 +233,15 @@ public class UIManager : MonoBehaviour
 
     public void ShowGameOverUI()
     {
-        header.SetActive(true);
-        title.gameObject.SetActive(false);
-        score.gameObject.SetActive(true);
-        tapToStart.SetActive(false);
-        menuButtons.SetActive(true);
+        //header.SetActive(true);
+        //title.gameObject.SetActive(false);
+        //score.gameObject.SetActive(true);
+        //tapToStart.SetActive(false);
+        //menuButtons.SetActive(true);
 
-        continueLostGame.SetActive(false);
-        watchForCoinsBtn.gameObject.SetActive(false);
-        settingsCanvas.SetActive(false);
+        //continueLostGame.SetActive(false);
+        //watchForCoinsBtn.gameObject.SetActive(false);
+        //settingsCanvas.SetActive(false);
 
         // Only show "watch for coins button" if a rewarded ad is loaded and premium features are enabled
         #if EASY_MOBILE
@@ -239,6 +267,11 @@ public class UIManager : MonoBehaviour
 
         // Blur the background
         camController.EnableBlurEffect();
+
+        //my own
+        preGameOverUi.SetActive(false);
+        gameplayUi.SetActive(false);
+        gameOverUi.SetActive(true);
     }
 
     public void ShowSettingsUI()

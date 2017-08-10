@@ -28,10 +28,10 @@ MonoBehaviour:
     _iosDefaultAdNetworks:
       bannerAdNetwork: 0
       interstitialAdNetwork: 0
-      rewardedAdNetwork: 0
+      rewardedAdNetwork: 4
     _androidDefaultAdNetwork:
-      bannerAdNetwork: 1
-      interstitialAdNetwork: 1
+      bannerAdNetwork: 0
+      interstitialAdNetwork: 0
       rewardedAdNetwork: 4
   _gameServiceSettings:
     _gpgsDebugLog: 0
@@ -73,7 +73,27 @@ MonoBehaviour:
     - _name: Score_100
       _iosId: 
       _androidId: CgkI3tzAhK8eEAIQBQ
-    _androidXmlResources: 
+    _androidXmlResources: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!--\nGoogle
+      Play game services IDs.\nSave this file as res/values/games-ids.xml in your
+      project.\n-->\n<resources>\n  <string name=\"app_id\">1043418066526</string>\n
+      \ <string name=\"package_name\">com.sglib.demogame</string>\n  <string name=\"achievement_score_10\">CgkI3tzAhK8eEAIQEg</string>\n
+      \ <string name=\"achievement_score_20\">CgkI3tzAhK8eEAIQAQ</string>\n  <string
+      name=\"achievement_score_30\">CgkI3tzAhK8eEAIQEw</string>\n  <string name=\"achievement_score_40\">CgkI3tzAhK8eEAIQAg</string>\n
+      \ <string name=\"achievement_score_50\">CgkI3tzAhK8eEAIQFA</string>\n  <string
+      name=\"achievement_score_60\">CgkI3tzAhK8eEAIQAw</string>\n  <string name=\"achievement_score_70\">CgkI3tzAhK8eEAIQFQ</string>\n
+      \ <string name=\"achievement_score_80\">CgkI3tzAhK8eEAIQBA</string>\n  <string
+      name=\"achievement_score_90\">CgkI3tzAhK8eEAIQFg</string>\n  <string name=\"achievement_score_100\">CgkI3tzAhK8eEAIQBQ</string>\n
+      \ <string name=\"achievement_score_110\">CgkI3tzAhK8eEAIQFw</string>\n  <string
+      name=\"achievement_score_120\">CgkI3tzAhK8eEAIQBg</string>\n  <string name=\"achievement_score_130\">CgkI3tzAhK8eEAIQGA</string>\n
+      \ <string name=\"achievement_score_140\">CgkI3tzAhK8eEAIQBw</string>\n  <string
+      name=\"achievement_score_150\">CgkI3tzAhK8eEAIQGQ</string>\n  <string name=\"achievement_score_160\">CgkI3tzAhK8eEAIQCA</string>\n
+      \ <string name=\"achievement_score_170\">CgkI3tzAhK8eEAIQGg</string>\n  <string
+      name=\"achievement_score_180\">CgkI3tzAhK8eEAIQCQ</string>\n  <string name=\"achievement_score_190\">CgkI3tzAhK8eEAIQGw</string>\n
+      \ <string name=\"achievement_score_200\">CgkI3tzAhK8eEAIQCg</string>\n  <string
+      name=\"achievement_score_250\">CgkI3tzAhK8eEAIQCw</string>\n  <string name=\"achievement_score_300\">CgkI3tzAhK8eEAIQDA</string>\n
+      \ <string name=\"achievement_score_350\">CgkI3tzAhK8eEAIQDQ</string>\n  <string
+      name=\"achievement_score_400\">CgkI3tzAhK8eEAIQDg</string>\n  <string name=\"achievement_score_500\">CgkI3tzAhK8eEAIQDw</string>\n
+      \ <string name=\"leaderboard_score\">CgkI3tzAhK8eEAIQAA</string>\n</resources>"
   _inAppPurchaseSettings:
     _targetAndroidStore: 0
     _validateAppleReceipt: 0
@@ -126,8 +146,8 @@ MonoBehaviour:
     _autoInitDelay: 0
     _oneSignalAppId: 
     _googleProjectNumber: 
-  _isAdModuleEnable: 0
+  _isAdModuleEnable: 1
   _isIAPModuleEnable: 0
-  _isGameServiceModuleEnable: 1
+  _isGameServiceModuleEnable: 0
   _isNotificationModuleEnable: 0
-  _activeModuleIndex: 2
+  _activeModuleIndex: 0

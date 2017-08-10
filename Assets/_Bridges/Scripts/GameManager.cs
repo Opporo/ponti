@@ -144,7 +144,7 @@ public class GameManager : MonoBehaviour
         SoundManager.Instance.StopMusic();
 
         bool haveEnoughCoins = false;
-        bool canWatchAd = false;
+        bool canWatchAd = true;
 
         // Need to have enough coins
         haveEnoughCoins = CoinManager.Instance.Coins >= coinsToRecover;
