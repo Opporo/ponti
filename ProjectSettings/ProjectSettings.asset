@@ -508,7 +508,7 @@ PlayerSettings:
     1: EASY_MOBILE
     2: CROSS_PLATFORM_INPUT
     4: EASY_MOBILE;NO_GPGS
-    7: EASY_MOBILE;EM_ADMOB
+    7: EASY_MOBILE
     13: EASY_MOBILE
     14: MOBILE_INPUT
     15: CROSS_PLATFORM_INPUT;MOBILE_INPUT
@@ -601,7 +601,8 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    UNet: 1
   facebookSdkVersion: 7.9.1
   apiCompatibilityLevel: 2
   cloudProjectId: 084dbf6f-50d1-4eea-966a-6e551b294a94

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f3ce665ba5d64404e9f9a6000bac7643
+timeCreated: 1502459096
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: SteinAntik-Light
+  fontNames:
+  - SteinAntik-Light
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

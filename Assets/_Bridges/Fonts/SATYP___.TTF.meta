@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 19d37af3039b1c74a91b52702d877298
+timeCreated: 1502458890
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Satyr
+  fontNames:
+  - Satyr
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

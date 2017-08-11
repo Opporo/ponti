@@ -266,7 +266,7 @@ public class UIManager : MonoBehaviour
         shareUI.SetActive(false);
 
         // Blur the background
-        camController.EnableBlurEffect();
+        //camController.EnableBlurEffect();
 
         //my own
         preGameOverUi.SetActive(false);

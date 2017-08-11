@@ -66,7 +66,7 @@ namespace SgLib
             {
                 rewardText.text = i.ToString();
                 SoundManager.Instance.PlaySound(SoundManager.Instance.tick);
-                yield return new WaitForSeconds(0.03f);
+                yield return new WaitForSeconds(0.01f);
             }
 
             // Actually store the rewards.

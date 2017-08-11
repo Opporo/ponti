@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 624710c18cecd0747a5bceae5b278b21
+timeCreated: 1502459095
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: SteinAntik
+  fontNames:
+  - SteinAntik
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 2d657777f94269e47b9fb167674c6de3, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

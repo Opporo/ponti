@@ -248,7 +248,7 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    //Get rangdom turn left path
+    //Get random turn left path
     GameObject GetTurnLeftPath()
     {
         GameObject turnPath = turnLeftPathManager.transform.GetChild(Random.Range(0, turnLeftPathManager.transform.childCount)).gameObject;
