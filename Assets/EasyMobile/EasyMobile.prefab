@@ -9,7 +9,6 @@ GameObject:
   m_Component:
   - component: {fileID: 411074}
   - component: {fileID: 11402936}
-  - component: {fileID: 114682286260350440}
   m_Layer: 0
   m_Name: EasyMobile
   m_TagString: Untagged
@@ -52,14 +51,3 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 157206}
   m_IsPrefabParent: 1
---- !u!114 &114682286260350440
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 157206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef30089487ff14be08cf4f2a63def99f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

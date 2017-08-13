@@ -146,7 +146,7 @@ MonoBehaviour:
     _autoInitDelay: 0
     _oneSignalAppId: 
     _googleProjectNumber: 
-  _isAdModuleEnable: 1
+  _isAdModuleEnable: 0
   _isIAPModuleEnable: 0
   _isGameServiceModuleEnable: 0
   _isNotificationModuleEnable: 0
