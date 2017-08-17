@@ -85,7 +85,7 @@ public class GameManager : MonoBehaviour
         turnPathNumberPooled = initialPath; //Max number of turn path
         goldNumberPooled = initialPath * 3; //Max number of gold
 
-        planeSize = LastPlaneOfPath(firstPath).GetComponent<Renderer>().bounds.size; //Get size of plane
+        planeSize = LastPlaneOfPath(firstPath).GetComponentInChildren<Renderer>().bounds.size; //Get size of plane
         pathNumber = Random.Range(minPathNumber, maxPathNumber); //Random path number
 
 

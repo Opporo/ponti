@@ -82,7 +82,12 @@ public class PlayerController : MonoBehaviour
         previousPlane = null;
         previousBridge = null;
     }
-	
+
+
+    private void OnDrawGizmos()
+    {
+        Debug.DrawRay(transform.position + new Vector3(0.5f, 0.5f, 0), Vector3.down, Color.red);
+    }
     // Update is called once per frame
     void Update()
     {
@@ -102,8 +107,7 @@ public class PlayerController : MonoBehaviour
                         transform.SetParent(theParent.transform, true);
 
                         previousBridge = theParent;
-                        StartCoroutine(FixedPosition(Mathf.Abs(transform.localPosition.z) / speed,
-                                transform.localPosition.z, 0, theParent));
+                        StartCoroutine(FixedPosition(Mathf.Abs(transform.localPosition.z) / speed, transform.localPosition.z, 0, theParent));
 
                         FixedRotation();
 
@@ -122,8 +126,7 @@ public class PlayerController : MonoBehaviour
                         transform.SetParent(theParent.transform, true);
                         movingDirection = theParent.transform.TransformDirection(Vector3.right);
 
-                        StartCoroutine(FixedPosition(Mathf.Abs(transform.localPosition.z) / speed,
-                                transform.localPosition.z, 0, theParent));
+                        StartCoroutine(FixedPosition(Mathf.Abs(transform.localPosition.z) / speed, transform.localPosition.z, 0, theParent));
 
                         FixedRotation();
                     }
@@ -245,3 +248,4 @@ public class PlayerController : MonoBehaviour
         }
     }
 }
+

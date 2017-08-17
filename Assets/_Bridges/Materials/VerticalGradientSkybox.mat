@@ -64,7 +64,7 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Progression: 0
+    - _Progression: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
@@ -77,6 +77,6 @@ Material:
     - _ColorUp: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Gradient1Color1: {r: 0.6691177, g: 0.84939146, b: 1, a: 1}
-    - _Gradient1Color2: {r: 1, g: 0.9517242, b: 0.75, a: 1}
+    - _Gradient1Color2: {r: 0.97971594, g: 1, b: 0.63235295, a: 1}
     - _Gradient2Color1: {r: 0.45036763, g: 0.47459418, b: 0.7205882, a: 1}
     - _Gradient2Color2: {r: 0.02413793, g: 0, b: 0.2058824, a: 1}
