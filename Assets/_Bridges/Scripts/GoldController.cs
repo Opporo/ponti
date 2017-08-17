@@ -19,7 +19,7 @@ public class GoldController : MonoBehaviour {
     {
         while (true)
         {
-            transform.Rotate(Vector3.up * 2f);
+            transform.Rotate(Vector3.right * 2f);
             yield return null;
         }
     }

@@ -17,6 +17,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Alpha:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -38,8 +46,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 7fcf6086256d2bf44aaed539a4eda3c1, type: 3}
+        m_Scale: {x: 0.5, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
@@ -53,21 +61,54 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Pattern1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Pattern2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Sprite:
+        m_Texture: {fileID: 2800000, guid: d319766c8d0872846897cedf2fc0acca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: 358d54f6bb090154fb0f877d2aab976b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_5078:
+        m_Texture: {fileID: 2800000, guid: d319766c8d0872846897cedf2fc0acca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
+    - PixelSnap: 0
+    - _AdditiveFactor: 2
     - _BumpScale: 1
+    - _ColorMask: 15
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _EnableExternalAlpha: 0
     - _Glossiness: 0.5
     - _GradientBias: 0.493
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Progression: 1
+    - _Progression: 0
     - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _USpeed: 1
     - _UVSec: 0
+    - _UseUIAlphaClip: 0
+    - _VSpeed: 0.5
     - _ZWrite: 1
+    - _node_3907: 0.1
     - _yLocalPosHigh: 0.5
     - _yLocalPosLow: -0.5
     m_Colors:
@@ -76,7 +117,10 @@ Material:
     - _ColorLow: {r: 0.42647058, g: 0.8813386, b: 1, a: 1}
     - _ColorUp: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Gradient1Color1: {r: 0.6691177, g: 0.84939146, b: 1, a: 1}
-    - _Gradient1Color2: {r: 0.97971594, g: 1, b: 0.63235295, a: 1}
-    - _Gradient2Color1: {r: 0.45036763, g: 0.47459418, b: 0.7205882, a: 1}
-    - _Gradient2Color2: {r: 0.02413793, g: 0, b: 0.2058824, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _Gradient1Color1: {r: 0.6544118, g: 0.95709944, b: 1, a: 1}
+    - _Gradient1Color2: {r: 0.9744422, g: 1, b: 0.7352941, a: 1}
+    - _Gradient2Color1: {r: 0.10261679, g: 0.51879996, b: 0.53676474, a: 1}
+    - _Gradient2Color2: {r: 0, g: 0.05910633, b: 0.1397059, a: 1}
+    - _OffsetSpeed: {r: 0, g: -0.05, b: 0, a: -0.02}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}

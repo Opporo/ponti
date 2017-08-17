@@ -243,7 +243,7 @@ public class PlayerController : MonoBehaviour
         {
             SoundManager.Instance.PlaySound(SoundManager.Instance.earnCoin);
             CoinManager.Instance.AddCoins(1);
-            other.GetComponent<MeshCollider>().enabled = false;
+            other.GetComponent<BoxCollider>().enabled = false;
             other.GetComponent<GoldController>().GoUp();
         }
     }
